@@ -7,6 +7,8 @@ Auth: SQLite-backed signup/login (auth.py). DB stored at /tmp/vitalnav_users.db.
 import json
 import os
 import re
+import face_auth
+
 from datetime import datetime
 from pathlib import Path
 
