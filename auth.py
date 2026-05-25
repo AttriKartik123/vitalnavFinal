@@ -23,7 +23,7 @@ from pathlib import Path
 
 import streamlit as st
 
-# ── DB setup ──────────────────────────────────────────────────────────────────
+# ── DB setup ──────────────────────────────────────────────────────────────
 
 _HERE   = Path(__file__).parent
 DB_PATH = str(_HERE / "vitalnav_users.db")
@@ -374,7 +374,7 @@ def _render_password_login_tab() -> None:
     )
 
 
-# ── Face login tab ────────────────────────────────────────────────────────────
+# ── Face login tab ───────────────────────────────────────────────────────────
 
 def _render_face_login_tab() -> None:
     try:
